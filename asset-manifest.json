@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portafolio-ivanovikLucas/static/css/main.3d09cf3b.css",
+    "main.js": "/Portafolio-ivanovikLucas/static/js/main.208ff639.js",
+    "static/js/453.ace21015.chunk.js": "/Portafolio-ivanovikLucas/static/js/453.ace21015.chunk.js",
+    "static/media/ecomerceJs.jpg": "/Portafolio-ivanovikLucas/static/media/ecomerceJs.260e9061343cb1d956aa.jpg",
+    "static/media/CvIvanovik.pdf": "/Portafolio-ivanovikLucas/static/media/CvIvanovik.45da5cb614ffb6cb35ec.pdf",
+    "static/media/home-main.svg": "/Portafolio-ivanovikLucas/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/Portafolio-ivanovikLucas/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/appmotoenvios1 (1).jpg": "/Portafolio-ivanovikLucas/static/media/appmotoenvios1 (1).d5bb5aae1804cd30e443.jpg",
+    "static/media/avatar.svg": "/Portafolio-ivanovikLucas/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/Portafolio-ivanovikLucas/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/Portafolio-ivanovikLucas/index.html",
+    "main.3d09cf3b.css.map": "/Portafolio-ivanovikLucas/static/css/main.3d09cf3b.css.map",
+    "main.208ff639.js.map": "/Portafolio-ivanovikLucas/static/js/main.208ff639.js.map",
+    "453.ace21015.chunk.js.map": "/Portafolio-ivanovikLucas/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d09cf3b.css",
+    "static/js/main.208ff639.js"
+  ]
+}
