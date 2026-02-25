@@ -3,6 +3,7 @@
 # ========================
 # Dependencies
 # ========================
+# Ya podemos volver a ignorar node_modules
 /node_modules
 /node_modules/*
 /.pnp
@@ -11,7 +12,8 @@
 # ========================
 # Production build
 # ========================
-/build
+# Volvemos a ignorar la carpeta build para que no se duplique en master
+/build 
 
 # ========================
 # Testing
@@ -41,7 +43,6 @@ yarn-error.log*
 .eslintcache
 
 # ========================
-# Server (si existe backend)
+# Server
 # ========================
 Server/node_modules
-Server/config.js

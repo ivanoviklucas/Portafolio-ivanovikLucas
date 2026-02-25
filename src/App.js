@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
+import Preloader from "./components/Pre"; // Corregido el path si está en components
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -30,7 +30,8 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    /* El basename es la clave para que GitHub Pages no muestre la pantalla en blanco */
+    <Router basename="/Portafolio-ivanovikLucas">
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
