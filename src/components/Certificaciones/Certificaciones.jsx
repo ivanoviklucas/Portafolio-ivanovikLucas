@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { CgAwards } from "react-icons/cg";
+import imagenCertificadoDestacado from "../../Assets/Images/imagenCertificadoDestacado.png"
 function Certificaciones() {
   return (
     <Container fluid className="about-section">
@@ -21,7 +22,7 @@ function Certificaciones() {
               <Col md={7}>
                 <Card.Img
                   variant="top"
-                  src="/Images/image(7).png"
+                  src= {imagenCertificadoDestacado}
                   alt="Certificado Carrera"
                 />
               </Col>
