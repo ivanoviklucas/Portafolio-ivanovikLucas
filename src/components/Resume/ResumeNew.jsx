@@ -5,10 +5,9 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import CvIvanovik from "../../Assets/CvIvanovik.pdf";
+import CVIVANOVIK2 from "../../Assets/CVIVANOVIK2.pdf?url";
 
-pdfjs.GlobalWorkerOptions.workerSrc =
-  `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -22,11 +21,10 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
 
-        {/* Botón de descarga */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={CvIvanovik}
+            href={CVIVANOVIK2} // Usamos el mismo nombre que arriba
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -35,10 +33,9 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        {/* Vista previa del PDF */}
         <Row className="resume">
           <Document
-            file={CvIvanovik}
+            file={CVIVANOVIK2} // Usamos el mismo nombre que arriba
             className="d-flex justify-content-center"
           >
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
