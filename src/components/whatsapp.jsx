@@ -2,7 +2,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Whatsapp = () => {
-  const telefono = "5491122334455"; // Reemplazá con tu número
+  const telefono = "5491122795861"; // Reemplazá con tu número
   const mensaje = "¡Hola! Vi tu portfolio y me gustaría contactarte.";
   const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
 
